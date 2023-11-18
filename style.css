@@ -1,0 +1,192 @@
+body{
+    position: relative;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+
+h1{
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.start_mario{
+    font-size: 40px;
+}
+
+.mario_created{
+    font-size: 40px;
+}
+
+.siguaro{
+    font-size:40px;
+    bottom: -80px;
+}
+
+.mario_view{
+    font-size:28px;
+    position: relative;
+    left: 500px;
+    bottom: 720px;
+}
+
+.characters{
+    position:relative;
+    left: 500px;
+    bottom: 700px;
+    font-size: 28px;
+
+
+}
+
+.gameplay{
+    position: relative;
+    left: 60px;
+    font-size: 140px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gameplay_text{
+    position: relative;
+    text-align: justify;
+    left: 60px;
+    font-size: 28px;
+    bottom: -30px;
+}
+
+.picture{
+    position: relative;
+    height:50%;
+
+    width:100%;
+}
+
+.fact{
+    position: relative;
+    left: 678px;
+    bottom: 131px;
+    font-size: 28px;
+}
+
+.o_nas{
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    color: #b31e1e;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: red;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 870px;
+    top: -80px;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .o_nas {
+    border: none;
+    color: white;
+    z-index: 1;
+  }
+  .o_nas:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .o_nas:hover {
+    color: #000000;
+  }
+  .o_nas:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .o_nas:active {
+    top: 2px;
+  }
+
+
+
+
+  .angames{
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: red;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 888px;
+    top: -80px;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .angames {
+    border: none;
+    color: white;
+    z-index: 1;
+  }
+  .angames:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .angames:hover {
+    color: #000000;
+  }
+  .angames:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .angames:active {
+    top: 2px;
+  }
+
+  .box{
+    position: relative;
+    background-color: #000000;
+  }
+
+  .logo{
+    position: relative;
+    font-size: 30px;
+  
+  }
+ 
